@@ -1,8 +1,9 @@
 body,
 #root {
-  background: #181a1b;
-  color: #f4f4f4;
+  background: var(--bg-color);
+  color: var(--text-color);
   width: 100vw;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .logo {
@@ -12,10 +13,10 @@ body,
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em var(--primary-color));
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em var(--secondary-color));
 }
 
 @keyframes logo-spin {
@@ -38,7 +39,8 @@ body,
 }
 
 .read-the-docs {
-  color: #888;
+  color: var(--text-color);
+  opacity: 0.7;
 }
 
 .container {
@@ -47,11 +49,12 @@ body,
   padding: 2rem;
   text-align: center;
   font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+  position: relative;
 }
 
 h1,
 h2 {
-  color: #f4f4f4;
+  color: var(--text-color);
 }
 
 h1 {
@@ -71,19 +74,19 @@ h2 {
 textarea {
   width: 100%;
   padding: 1rem;
-  border: 2px solid #00d1b2;
+  border: 2px solid var(--primary-color);
   border-radius: 8px;
   font-size: 1rem;
   margin-bottom: 1rem;
   font-family: monospace;
   resize: vertical;
-  background: #23272f;
-  color: #f4f4f4;
+  background: var(--container-bg);
+  color: var(--text-color);
 }
 
 button {
-  background-color: #00d1b2;
-  color: #181a1b;
+  background-color: var(--primary-color);
+  color: var(--bg-color);
   border: none;
   padding: 0.8rem 1.5rem;
   border-radius: 8px;
@@ -98,20 +101,21 @@ button:hover {
 }
 
 button:disabled {
-  background-color: #444;
-  color: #888;
+  background-color: var(--border-color);
+  color: var(--text-color);
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
 .error {
-  color: #ff3860;
+  color: var(--error-color);
   margin: 1rem 0;
 }
 
 .results {
   margin-top: 2rem;
   text-align: left;
-  background-color: #23272f;
+  background-color: var(--container-bg);
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -121,7 +125,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #23272f;
+  background-color: var(--container-bg);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -132,20 +136,19 @@ th,
 td {
   padding: 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #2d313a;
-  color: #f4f4f4;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
   font-family: "JetBrains Mono", "Fira Code", "Consolas", monospace;
 }
 
 th {
-  background-color: #2d313a;
+  background-color: var(--table-header-bg);
   font-weight: 600;
-  color: #00d1b2;
+  color: var(--primary-color);
 }
 
 tr:hover {
-  background-color: #23272f;
-  filter: brightness(1.1);
+  background-color: var(--table-row-hover);
 }
 
 .results-header {
@@ -156,8 +159,8 @@ tr:hover {
 }
 
 .export-button {
-  background-color: #3273dc;
-  color: #f4f4f4;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
 }
@@ -174,14 +177,13 @@ tr:hover {
 }
 
 .sortable:hover {
-  background-color: #23272f;
-  filter: brightness(1.2);
+  background-color: var(--table-row-hover);
 }
 
 .sort-indicator {
   position: absolute;
   right: 0.5rem;
-  color: #00d1b2;
+  color: var(--primary-color);
 }
 
 th.sortable {

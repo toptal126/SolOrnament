@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import "./App.css";
+import ThemeToggle from "./components/ThemeToggle";
 
 type SortDirection = "asc" | "desc" | null;
 
@@ -102,6 +103,7 @@ function App() {
 
   return (
     <div className="container">
+      <ThemeToggle />
       <h1>Solana Wallet Balance Scanner</h1>
       <div className="input-section">
         <textarea
