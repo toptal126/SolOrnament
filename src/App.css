@@ -160,7 +160,7 @@ tr:hover {
 
 .export-button {
   background-color: var(--secondary-color);
-  color: var(--text-color);
+  color: var(--export-button-text);
   font-size: 0.9rem;
   padding: 0.5rem 1rem;
 }
@@ -188,4 +188,2847 @@ tr:hover {
 
 th.sortable {
   transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--primary-color);
+}
+
+th.sortable {
+  transition: background-color 0.2s;
+}
+
+.export-button {
+  background-color: var(--secondary-color);
+  color: var(--export-button-text);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.export-button:hover {
+  background-color: #2759a5;
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.5rem;
+}
+
+.sortable:hover {
+  background-color: var(--table-row-hover);
+}
+
+.sort-indicator {
+  position: absolute;
+  right: 0.5;
 }

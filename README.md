@@ -1,3 +1,26 @@
+# Wallet Scanner
+
+A simple React + TypeScript app to scan Solana wallet balances and show their USD value.
+
+## Features
+- Enter multiple Solana wallet addresses (one per line)
+- Fetches and displays SOL balances for each address
+- Fetches real-time SOL price from CoinGecko and shows USD value for each wallet
+- Export results to CSV
+- Dark/Light theme toggle
+
+## Getting Started
+1. Clone the repo
+2. Install dependencies: `yarn install` or `npm install`
+3. Set your Solana RPC URL in `.env` as `VITE_SOLANA_RPC_URL`
+4. Run the app: `yarn dev` or `npm run dev`
+
+## API Used
+- [CoinGecko Simple Price API](https://www.coingecko.com/en/api/documentation) for real-time SOL/USD price
+
+## License
+MIT
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -2,17 +2,32 @@ import { useState } from "react";
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import "./App.css";
 import ThemeToggle from "./components/ThemeToggle";
+import { useEffect } from "react";
 
 type SortDirection = "asc" | "desc" | null;
 
 function App() {
-  const [addresses, setAddresses] = useState("");
+  const [addresses, setAddresses] = useState<string>(() => {
+    return localStorage.getItem("walletAddresses") || "";
+  });
+
+  useEffect(() => {
+    localStorage.setItem("walletAddresses", addresses);
+  }, [addresses]);
   const [balances, setBalances] = useState<
     { address: string; balance: number }[]
   >([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [sortDirection, setSortDirection] = useState<SortDirection>(null);
+  const [solPrice, setSolPrice] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd")
+      .then((res) => res.json())
+      .then((data) => setSolPrice(data.solana.usd))
+      .catch(() => setSolPrice(null));
+  }, []);
 
   const connection = new Connection(import.meta.env.VITE_SOLANA_RPC_URL);
 
@@ -76,17 +91,22 @@ function App() {
   };
 
   const exportToCSV = () => {
-    const headers = ["Address", "Balance (SOL)"];
-    const csvContent = [
-      headers.join(","),
-      ...balances.map(
-        ({ address, balance }) =>
-          `${address},${
-            balance === -1 ? "Invalid address" : balance.toFixed(4)
-          }`
-      ),
-    ].join("\n");
+    const headers = ["Address", "Balance (SOL)", "USD Value"];
+    const csvRows = [headers.join(",")];
 
+    balances.forEach(({ address, balance }) => {
+      const usdValue = balance === -1 || solPrice === null ? "-" : (balance * solPrice).toFixed(2);
+      csvRows.push(
+        `${address},${balance === -1 ? "Invalid address" : balance.toFixed(4)},${usdValue}`
+      );
+    });
+
+    // Optionally, add SOL price info at the top
+    if (solPrice !== null) {
+      csvRows.unshift(`SOL Price (USD):,${solPrice}`);
+    }
+
+    const csvContent = csvRows.join("\n");
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const link = document.createElement("a");
     const url = URL.createObjectURL(blob);
@@ -105,10 +125,15 @@ function App() {
     <div className="container">
       <ThemeToggle />
       <h1>Solana Wallet Balance Scanner</h1>
+      {solPrice !== null && (
+        <div style={{ marginBottom: "1rem", fontWeight: 500 }}>
+          Current SOL Price: <span style={{ color: "#00d1b2" }}>${solPrice.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>
+        </div>
+      )}
       <div className="input-section">
         <textarea
           value={addresses}
-          onChange={(e) => setAddresses(e.target.value)}
+          onChange={e => setAddresses(e.target.value)}
           placeholder="Enter Solana wallet addresses (one per line)"
           rows={5}
         />
@@ -139,6 +164,7 @@ function App() {
                     </span>
                   )}
                 </th>
+                <th>USD Value</th>
               </tr>
             </thead>
             <tbody>
@@ -151,6 +177,11 @@ function App() {
                     ) : (
                       balance.toFixed(4)
                     )}
+                  </td>
+                  <td>
+                    {balance === -1 || solPrice === null
+                      ? "-"
+                      : `$${(balance * solPrice).toLocaleString(undefined, { maximumFractionDigits: 2 })}`}
                   </td>
                 </tr>
               ))}
