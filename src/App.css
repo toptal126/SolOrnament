@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
 
+@import "tailwindcss";
 body,
 #root {
   background: var(--bg-color);
   color: var(--text-color);
   width: 100vw;
   transition: background-color 0.3s, color 0.3s;
-  font-family: "Electrolize", sans-serif;
+  font-family: "Electrolize", sans-serif !important;
 }
 
 * {
-  font-family: "Electrolize", sans-serif;
+  font-family: "Electrolize", sans-serif !important;
 }
 
 .logo {
@@ -368,7 +369,7 @@ th.sortable {
   color: var(--text-color, #fff);
   display: flex;
   flex-direction: column;
-  padding: 2rem 0 2rem 0.5rem;
+
   border-right: 1.5px solid var(--border-color, #222);
   min-height: 100vh;
 }
@@ -376,15 +377,20 @@ th.sortable {
 .sidebar-title {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  height: 38px;
+  border-bottom: 1.5px solid var(--border-color, #222);
+
   letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
   color: var(--primary-color, #00d1b2);
 }
 
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding: 1rem 0;
   margin: 0;
 }
 
@@ -392,17 +398,20 @@ th.sortable {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 1.05rem;
   margin-bottom: 0.25rem;
   transition: background 0.15s, color 0.15s;
 }
 
-.sidebar li.active,
+.sidebar li.active {
+  background: var(--accent-color, #00d1b288);
+  color: #fff;
+}
 .sidebar li:hover {
-  background: var(--accent-color, #00d1b2);
+  background: var(--accent-color, #00d1b244);
   color: #fff;
 }
 
@@ -474,7 +483,6 @@ th.sortable {
 
 .sol-price {
   font-weight: 700;
-  font-size: 1.1rem;
 }
 
 .loader {

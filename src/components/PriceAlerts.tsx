@@ -4,6 +4,7 @@ import {
   startPricePolling,
   stopPricePolling,
 } from "../services/priceService";
+import "../components/styles/button.css";
 
 const PriceAlerts = () => {
   const { currentPrice, alerts, addAlert, removeAlert } = usePriceStore();
@@ -64,14 +65,15 @@ const PriceAlerts = () => {
         </div>
       )}
 
-      <form onSubmit={handleAddAlert} className="alert-form">
-        <div className="form-group">
+      <form onSubmit={handleAddAlert} className="alert-form flex gap-3 mb-4">
+        <div className="form-group flex-1 min-w-0">
           <label>Alert Type:</label>
           <select
             value={alertType}
             onChange={(e) =>
               setAlertType(e.target.value as "above" | "below" | "percent")
             }
+            className="bg-[#23272f] text-white border-2 border-[#00d1b2] rounded-lg p-2"
           >
             <option value="above">Price Above</option>
             <option value="below">Price Below</option>
@@ -79,7 +81,7 @@ const PriceAlerts = () => {
           </select>
         </div>
 
-        <div className="form-group">
+        <div className="form-group flex-1 min-w-0">
           <label>Value:</label>
           <input
             type="number"
@@ -90,10 +92,13 @@ const PriceAlerts = () => {
             }
             step="any"
             required
+            className="bg-[#23272f] text-white border-2 border-[#00d1b2] rounded-lg p-2"
           />
         </div>
 
-        <button type="submit">Add Alert</button>
+        <button type="submit" className="btn" disabled={!alertValue.trim()}>
+          Add Alert
+        </button>
       </form>
 
       <div className="alerts-list">
@@ -117,7 +122,13 @@ const PriceAlerts = () => {
                   <span className="triggered-badge">Triggered</span>
                 )}
               </div>
-              <button onClick={() => removeAlert(alert.id)}>Remove</button>
+              <button
+                onClick={() => removeAlert(alert.id)}
+                className="btn btn-secondary"
+                disabled={alert.triggered}
+              >
+                Remove
+              </button>
             </div>
           ))
         )}

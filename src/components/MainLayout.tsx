@@ -11,7 +11,7 @@ import PriceChartModal from "./PriceChartModal";
 const MainLayout: React.FC = () => {
   const { selectedTool, setSelectedTool } = useMainLayoutStore();
   const [showPriceChart, setShowPriceChart] = useState(false);
-  const [showSettings, setShowSettings] = useState(false);
+
   const [priceLoading, setPriceLoading] = useState(false); // To be wired to price polling
 
   // Placeholder for main content
@@ -39,7 +39,6 @@ const MainLayout: React.FC = () => {
         <StatusBar
           loading={priceLoading}
           onPriceClick={() => setShowPriceChart(true)}
-          onSettingsClick={() => setShowSettings(true)}
         />
         <div className="tool-content">{mainContent}</div>
         <PriceChartModal

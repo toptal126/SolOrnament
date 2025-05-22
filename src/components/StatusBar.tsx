@@ -1,19 +1,14 @@
 import React from "react";
 import { usePriceStore } from "../services/priceService";
 
-import ThemeToggle from "./ThemeToggle";
+// import ThemeToggle from "./ThemeToggle";
 
 interface StatusBarProps {
   loading: boolean;
   onPriceClick: () => void;
-  onSettingsClick: () => void;
 }
 
-const StatusBar: React.FC<StatusBarProps> = ({
-  loading,
-  onPriceClick,
-  onSettingsClick,
-}) => {
+const StatusBar: React.FC<StatusBarProps> = ({ loading, onPriceClick }) => {
   const currentPrice = usePriceStore((state) => state.currentPrice);
 
   return (
@@ -24,7 +19,7 @@ const StatusBar: React.FC<StatusBarProps> = ({
           onClick={onPriceClick}
           title="Show SOL price chart"
         >
-          {loading ? <span className="loader" /> : null}
+          {true ? <span className="loader" /> : null}
           <span className="sol-label">SOL:</span>
           <span className="sol-price">
             {currentPrice !== null
@@ -34,16 +29,9 @@ const StatusBar: React.FC<StatusBarProps> = ({
               : "—"}
           </span>
         </div>
-        <div className="status-bar-actions">
+        {/* <div className="status-bar-actions">
           <ThemeToggle />
-          <button
-            className="settings-btn"
-            onClick={onSettingsClick}
-            title="Settings"
-          >
-            ⚙️
-          </button>
-        </div>
+        </div> */}
       </div>
     </header>
   );

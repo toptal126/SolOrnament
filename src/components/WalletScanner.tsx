@@ -2,6 +2,7 @@ import { useWalletScannerStore } from "../stores/walletScannerStore";
 import { useSettingsStore } from "../stores/settingsStore";
 import { usePriceStore } from "../services/priceService";
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
+import "../components/styles/button.css";
 
 const WalletScanner: React.FC = () => {
   const addresses = useWalletScannerStore((s) => s.addresses);
@@ -88,19 +89,30 @@ const WalletScanner: React.FC = () => {
   return (
     <div>
       <h2>Solana Wallet Balance Scanner</h2>
-      <div className="input-section">
+      <div className="input-section flex gap-3 mb-4">
         <textarea
           value={addresses}
           onChange={(e) => setAddresses(e.target.value)}
           placeholder="Enter Solana wallet addresses (one per line)"
           rows={5}
+          className="flex-1 min-w-0 bg-[#23272f] text-white border-2 border-[#00d1b2] rounded-lg p-3 resize-y"
         />
-        <button onClick={fetchBalances} disabled={loading || !addresses.trim()}>
-          {loading ? "Fetching..." : "Fetch Balances"}
-        </button>
-        <button onClick={reset} style={{ marginLeft: 8 }} disabled={loading}>
-          Reset
-        </button>
+        <div className="flex flex-col gap-2">
+          <button
+            onClick={fetchBalances}
+            disabled={loading || !addresses.trim()}
+            className="btn w-40"
+          >
+            {loading ? "Fetching..." : "Fetch Balances"}
+          </button>
+          <button
+            onClick={reset}
+            disabled={loading}
+            className="btn btn-secondary"
+          >
+            Reset
+          </button>
+        </div>
       </div>
       {error && <div className="error">{error}</div>}
       {balances.length > 0 && (

@@ -30,6 +30,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
       return savedTheme;
     }
 
+    return "dark";
     // Check system preference
     return window.matchMedia &&
       window.matchMedia("(prefers-color-scheme: dark)").matches
