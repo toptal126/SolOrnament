@@ -12,8 +12,6 @@ const MainLayout: React.FC = () => {
   const { selectedTool, setSelectedTool } = useMainLayoutStore();
   const [showPriceChart, setShowPriceChart] = useState(false);
 
-  const [priceLoading, setPriceLoading] = useState(false); // To be wired to price polling
-
   // Placeholder for main content
   let mainContent: React.ReactNode = null;
   if (selectedTool === "wallet") {
@@ -36,10 +34,7 @@ const MainLayout: React.FC = () => {
     <div className="main-layout">
       <Sidebar selected={selectedTool} onSelect={setSelectedTool} />
       <div className="main-content">
-        <StatusBar
-          loading={priceLoading}
-          onPriceClick={() => setShowPriceChart(true)}
-        />
+        <StatusBar onPriceClick={() => setShowPriceChart(true)} />
         <div className="tool-content">{mainContent}</div>
         <PriceChartModal
           open={showPriceChart}

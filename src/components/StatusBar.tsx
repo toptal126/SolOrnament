@@ -1,14 +1,13 @@
 import React from "react";
 import { usePriceStore } from "../services/priceService";
-
+import ProgressCircleLoader from "./ProgressCircleLoader";
 // import ThemeToggle from "./ThemeToggle";
 
 interface StatusBarProps {
-  loading: boolean;
   onPriceClick: () => void;
 }
 
-const StatusBar: React.FC<StatusBarProps> = ({ loading, onPriceClick }) => {
+const StatusBar: React.FC<StatusBarProps> = ({ onPriceClick }) => {
   const currentPrice = usePriceStore((state) => state.currentPrice);
 
   return (
@@ -19,7 +18,7 @@ const StatusBar: React.FC<StatusBarProps> = ({ loading, onPriceClick }) => {
           onClick={onPriceClick}
           title="Show SOL price chart"
         >
-          {true ? <span className="loader" /> : null}
+          <ProgressCircleLoader duration={20000} />
           <span className="sol-label">SOL:</span>
           <span className="sol-price">
             {currentPrice !== null
