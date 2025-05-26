@@ -1,6 +1,7 @@
 import React from "react";
-import { usePriceStore } from "../services/priceService";
+
 import ProgressCircleLoader from "./ProgressCircleLoader";
+import { usePriceStore } from "@stores/priceStore";
 // import ThemeToggle from "./ThemeToggle";
 
 interface StatusBarProps {

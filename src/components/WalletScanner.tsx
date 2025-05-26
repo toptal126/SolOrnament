@@ -1,6 +1,6 @@
 import { useWalletScannerStore } from "../stores/walletScannerStore";
 import { useSettingsStore } from "../stores/settingsStore";
-import { usePriceStore } from "../services/priceService";
+import { usePriceStore } from "@stores/priceStore";
 import { Connection, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import "../components/styles/button.css";
 

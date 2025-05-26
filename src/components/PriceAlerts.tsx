@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
-import {
-  usePriceStore,
-  startPricePolling,
-  stopPricePolling,
-} from "../services/priceService";
+import { usePriceStore } from "@stores/priceStore";
 import "../components/styles/button.css";
+import { startPricePolling, stopPricePolling } from "@services/priceService";
 
 const PriceAlerts = () => {
-  const { currentPrice, alerts, addAlert, removeAlert } = usePriceStore();
+  const { alerts, addAlert, removeAlert } = usePriceStore();
   const [alertType, setAlertType] = useState<"above" | "below" | "percent">(
     "above"
   );

@@ -379,6 +379,7 @@ th.sortable {
   font-weight: 700;
   height: 38px;
   border-bottom: 1.5px solid var(--border-color, #222);
+  text-shadow: #00c9a1 2px 0 10px;
 
   letter-spacing: 1px;
   display: flex;
@@ -386,6 +387,12 @@ th.sortable {
   justify-content: center;
   font-weight: 600;
   color: var(--primary-color, #00d1b2);
+  cursor: pointer;
+  transition: text-shadow 0.1s;
+
+  &:hover {
+    text-shadow: #00dcb0 3px 0 15px;
+  }
 }
 
 .sidebar ul {
@@ -394,7 +401,7 @@ th.sortable {
   margin: 0;
 }
 
-.sidebar li {
+.sidebar a {
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -404,13 +411,17 @@ th.sortable {
   font-size: 1.05rem;
   margin-bottom: 0.25rem;
   transition: background 0.15s, color 0.15s;
+
+  & > .active {
+    color: white;
+  }
 }
 
-.sidebar li.active {
+.sidebar a.active {
   background: var(--accent-color, #00d1b288);
   color: #fff;
 }
-.sidebar li:hover {
+.sidebar a:hover {
   background: var(--accent-color, #00d1b244);
   color: #fff;
 }
@@ -741,4 +752,9 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+a,
+a:hover {
+  color: var(--primary-color);
 }

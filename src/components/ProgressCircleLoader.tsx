@@ -5,6 +5,7 @@ interface ProgressCircleLoaderProps {
   size?: number; // px
   strokeWidth?: number; // px
   color?: string;
+  infinite?: boolean;
 }
 
 const ProgressCircleLoader: React.FC<ProgressCircleLoaderProps> = ({
@@ -12,6 +13,7 @@ const ProgressCircleLoader: React.FC<ProgressCircleLoaderProps> = ({
   size = 22,
   strokeWidth = 3,
   color = "#00d1b2",
+  infinite = true,
 }) => {
   const [progress, setProgress] = useState(0);
   const startTimeRef = useRef<number | null>(null);
@@ -23,16 +25,23 @@ const ProgressCircleLoader: React.FC<ProgressCircleLoaderProps> = ({
     const animate = (now: number) => {
       if (!startTimeRef.current) startTimeRef.current = now;
       const elapsed = now - startTimeRef.current;
-      setProgress(Math.min(elapsed / duration, 1));
-      if (elapsed < duration) {
+      let prog = elapsed / duration;
+      if (infinite) {
+        prog = prog % 1;
+        setProgress(prog);
         reqRef.current = requestAnimationFrame(animate);
+      } else {
+        setProgress(Math.min(prog, 1));
+        if (prog < 1) {
+          reqRef.current = requestAnimationFrame(animate);
+        }
       }
     };
     reqRef.current = requestAnimationFrame(animate);
     return () => {
       if (reqRef.current) cancelAnimationFrame(reqRef.current);
     };
-  }, [duration]);
+  }, [duration, infinite]);
 
   const radius = (size - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;

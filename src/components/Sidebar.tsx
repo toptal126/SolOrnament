@@ -1,17 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const tools = [
-  { key: "wallet", label: "Wallet Scanner", icon: "💼" },
-  { key: "alerts", label: "Price Alerts", icon: "🔔" },
+  { key: "wallet", label: "Wallet Scanner", icon: "💼", path: "/wallet" },
+  { key: "alerts", label: "Price Alerts", icon: "🔔", path: "/alerts" },
 ];
-const settingsTool = { key: "settings", label: "Settings", icon: "⚙️" };
+const settingsTool = {
+  key: "settings",
+  label: "Settings",
+  icon: "⚙️",
+  path: "/settings",
+};
 
-interface SidebarProps {
-  selected: string;
-  onSelect: (key: string) => void;
-}
-
-const Sidebar: React.FC<SidebarProps> = ({ selected, onSelect }) => {
+const Sidebar: React.FC = () => {
   return (
     <nav className="sidebar flex flex-col justify-between h-full min-h-screen bg-[#181a20]">
       <div>
@@ -20,30 +21,32 @@ const Sidebar: React.FC<SidebarProps> = ({ selected, onSelect }) => {
         </div>
         <ul>
           {tools.map((tool) => (
-            <li
-              key={tool.key}
-              className={`flex items-center gap-3 rounded-lg cursor-pointer mb-1 transition-colors ${
-                selected === tool.key ? "active" : ""
-              }`}
-              onClick={() => onSelect(tool.key)}
-            >
-              <span className="icon text-xl">{tool.icon}</span>
-              <span className="label">{tool.label}</span>
+            <li key={tool.key}>
+              <NavLink
+                key={tool.key}
+                to={tool.path}
+                className={({ isActive }) => ` ${isActive ? "active" : ""}`}
+              >
+                <span className="icon text-xl">{tool.icon}</span>
+                <span className="label">{tool.label}</span>
+              </NavLink>
             </li>
           ))}
         </ul>
       </div>
       <ul>
-        <li
-          className={`flex items-center gap-3 px-6 py-3 rounded-lg cursor-pointer mb-1 transition-colors ${
-            selected === settingsTool.key
-              ? "bg-[#00d1b2] text-white"
-              : "hover:bg-[#23272f] text-[#b0b8c1]"
-          }`}
-          onClick={() => onSelect(settingsTool.key)}
-        >
-          <span className="icon text-xl">{settingsTool.icon}</span>
-          <span className="label">{settingsTool.label}</span>
+        <li>
+          <NavLink
+            to={settingsTool.path}
+            className={({ isActive }) =>
+              `sidebar-link flex items-center gap-3 px-6 py-3 rounded-lg cursor-pointer mb-1 transition-colors ${
+                isActive ? "sidebar-link--active" : ""
+              }`
+            }
+          >
+            <span className="icon text-xl">{settingsTool.icon}</span>
+            <span className="label">{settingsTool.label}</span>
+          </NavLink>
         </li>
       </ul>
     </nav>
