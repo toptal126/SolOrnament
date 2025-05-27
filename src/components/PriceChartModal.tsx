@@ -1,5 +1,5 @@
 import React from "react";
-import { usePriceHistoryStore } from "../stores/priceHistoryStore";
+import { usePriceStore } from "@stores/priceStore";
 import {
   LineChart,
   Line,
@@ -16,7 +16,7 @@ interface PriceChartModalProps {
 }
 
 const PriceChartModal: React.FC<PriceChartModalProps> = ({ open, onClose }) => {
-  const priceHistory = usePriceHistoryStore((s) => s.priceHistory);
+  const priceHistory = usePriceStore((s) => s.priceHistory);
 
   if (!open) return null;
 

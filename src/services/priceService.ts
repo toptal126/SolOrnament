@@ -1,5 +1,4 @@
-import { usePriceStore } from "@stores/priceStore";
-import { usePriceHistoryStore } from "@stores/priceHistoryStore";
+import { usePriceStore } from "../stores/priceStore";
 
 export const fetchSolPrice = async (): Promise<number> => {
   try {
@@ -16,7 +15,7 @@ export const fetchSolPrice = async (): Promise<number> => {
 
     // Record price history
     try {
-      usePriceHistoryStore.getState().addPricePoint({
+      usePriceStore.getState().addPricePoint({
         timestamp: Date.now(),
         price,
       });
