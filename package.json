@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "bump-version": "node scripts/bump-version.cjs",
-    "prepare": "husky && husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.2",
