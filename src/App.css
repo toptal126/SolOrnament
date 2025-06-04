@@ -6,6 +6,8 @@ body,
   background: var(--bg-color);
   color: var(--text-color);
   width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
   transition: background-color 0.3s, color 0.3s;
   font-family: "Electrolize", sans-serif !important;
 }
@@ -42,6 +44,13 @@ body,
   }
 }
 
+.index-page {
+  @apply max-h-screen bg-gradient-to-b from-[#1a1d24] to-[#23272f];
+  @apply 2xl:px-64 xl:px-48 lg:px-32 md:px-16 sm:px-8;
+  min-width: 100vw;
+  overflow-y: auto;
+}
+
 .card {
   padding: 2em;
 }
@@ -68,9 +77,6 @@ h2 {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-}
-
-h2 {
 }
 
 .input-section {
@@ -371,7 +377,10 @@ th.sortable {
   flex-direction: column;
 
   border-right: 1.5px solid var(--border-color, #222);
-  min-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
+
+  justify-content: space-between;
 }
 
 .sidebar-title {
@@ -535,6 +544,8 @@ th.sortable {
 
 .tool-content {
   padding: 2rem 1.5rem 0 1.5rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 38px);
 }
 
 /* Remove card styling for flat look */
@@ -567,7 +578,6 @@ th.sortable {
     flex-direction: row;
     border-right: none;
     border-bottom: 1.5px solid var(--border-color, #222);
-    min-height: unset;
   }
   .sidebar-title {
     display: none;

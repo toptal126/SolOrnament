@@ -19,8 +19,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<IndexPage />} />
+        <Route path="/" element={<IndexPage />} />
+        <Route element={<Layout />}>
           <Route path="wallet" element={<WalletScannerPage />} />
           <Route path="alerts" element={<PriceAlertsPage />} />
           <Route path="settings" element={<SettingsPage />} />

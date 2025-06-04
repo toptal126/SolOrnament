@@ -14,7 +14,7 @@ const settingsTool = {
 
 const Sidebar: React.FC = () => {
   return (
-    <nav className="sidebar flex flex-col justify-between h-full min-h-screen bg-[#181a20]">
+    <nav className="sidebar">
       <div>
         <NavLink
           to="/"

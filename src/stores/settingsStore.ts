@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
+import versionData from "../version.json";
 
 export type Theme = "light" | "dark" | "system";
 
@@ -7,6 +8,7 @@ export interface SettingsState {
   theme: Theme;
   priceUpdateInterval: number;
   customRpcUrl: string;
+  version: string;
   setTheme: (theme: Theme) => void;
   setPriceUpdateInterval: (interval: number) => void;
   setCustomRpcUrl: (url: string) => void;
@@ -18,6 +20,7 @@ const defaultSettings = {
   theme: "system" as Theme,
   priceUpdateInterval: 20000,
   customRpcUrl: "",
+  version: versionData.version,
 };
 
 export const useSettingsStore = create<SettingsState>()(
@@ -38,6 +41,7 @@ export const useSettingsStore = create<SettingsState>()(
         theme: state.theme,
         priceUpdateInterval: state.priceUpdateInterval,
         customRpcUrl: state.customRpcUrl,
+        version: state.version,
       }),
     }
   )
