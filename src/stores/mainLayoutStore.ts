@@ -13,7 +13,7 @@ export const useMainLayoutStore = create<MainLayoutState>()(
       setSelectedTool: (tool) => set({ selectedTool: tool }),
     }),
     {
-      name: "wallet-scanner-main-layout",
+      name: "solornament-main-layout",
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({ selectedTool: state.selectedTool }),
     }

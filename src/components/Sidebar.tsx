@@ -16,9 +16,12 @@ const Sidebar: React.FC = () => {
   return (
     <nav className="sidebar flex flex-col justify-between h-full min-h-screen bg-[#181a20]">
       <div>
-        <div className="sidebar-title text-[#00d1b2] font-bold text-lg">
+        <NavLink
+          to="/"
+          className="sidebar-title text-[#00d1b2] font-bold text-lg"
+        >
           SolOrnament
-        </div>
+        </NavLink>
         <ul>
           {tools.map((tool) => (
             <li key={tool.key}>

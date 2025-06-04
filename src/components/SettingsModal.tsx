@@ -36,7 +36,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ open, onClose }) => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "wallet-scanner-settings.json";
+    link.download = "solornament-settings.json";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

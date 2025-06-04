@@ -32,7 +32,7 @@ export const useSettingsStore = create<SettingsState>()(
       importSettings: (settings) => set({ ...get(), ...settings }),
     }),
     {
-      name: "wallet-scanner-settings",
+      name: "solornament-settings",
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
         theme: state.theme,
